@@ -1,0 +1,43 @@
+.error{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.err-img{
+    margin-top: 5px;
+    height: 500px;
+    padding: 10px;
+}
+
+.error-title{
+    font-family: 'Poppins' sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #004b9a;
+}
+
+.error-text{
+    font-size: 17px;
+    font-family: 'Poppins' sans-serif;
+    color: #004b9a;
+}
+.error-btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #004b9a;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 13px;
+}
+.error-btn:hover{
+    background-color: #f4d300;
+    color: #004b9a;
+}

@@ -1,0 +1,22 @@
+.virtual-container{
+    max-height: 80vh;
+    max-width: 100vw;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    align-items: center;  
+}
+.virtual-container h2{ 
+    margin-top: 2rem; 
+    color: #018fd0; 
+    font-size: 2.7rem;
+    font-weight: bolder;
+}
+
+.map-container-2{
+    position: absolute;
+    left: 52.5%;
+    top : 53%;
+    transform: translate(-50%,-50%);
+
+}

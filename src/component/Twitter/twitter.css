@@ -1,0 +1,158 @@
+.twit-header{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.twit-overlay{
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    width: 100%;
+    max-width: 100%;
+    height: 210px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.twit-header h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.twit-header p{
+    color: rgb(71, 0, 163);
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px 0px;
+}
+
+.twit-header form{
+    margin: 15px 0px;
+}
+
+.twit-header form input{
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 450px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: left;
+    color: #1f1f1f;
+    font-size: 16px;
+    padding: 7px;
+    margin-right: 10px;
+}
+.twit-header form .analyse{
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    border: 1px solid #fb3e3e;
+    outline: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.twit-sections{
+    display: flex;
+}
+.twit-column{
+    flex: 50%;
+}
+
+.twit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.twit-bg{
+    width: 800px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: radial-gradient(#ecfeff, #ececec);
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 450px;
+}
+.card {
+    margin: 20px;
+    padding: 5px;
+    width: 330px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+  
+.card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.card__title {
+    grid-row: 2/3;
+    font-weight: 400;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.tweet__title{
+    grid-row: 2/3;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #f30061;
+}
+.card-percentage{
+    grid-row: 3/4;
+    font-weight: 400;
+    margin-top: 35px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+}
+  
+.card-2 {
+    background: radial-gradient(#60efbc, #58d5c9);
+}
+  
+.card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+}
+  
+.card-4 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+}
+
+.progress2{
+    margin-top: 65px;
+}
+.condition{
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+  
+
+@media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }

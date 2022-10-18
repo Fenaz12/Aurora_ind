@@ -1,0 +1,33 @@
+.eachBlock{
+    margin-top: 17px;
+    width: 96.3%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap : wrap;
+    margin-left : 25px;
+}
+
+@media (-webkit-device-pixel-ratio: 1) {
+    .eachBlock {
+      zoom: 1.15;
+    }
+    .eachBlock-playlist{
+      zoom: 1.15;
+    }
+    .playlist-container{
+      margin-bottom: 50px;  
+    }
+  }
+
+  @media (-moz-device-pixel-ratio:1) {
+    .eachBlock {
+    scale: 2.15,2.15;    }
+    .eachBlock-playlist{
+      scale: 1.15;
+    }
+    .playlist-container{
+      margin-bottom: 50px;  
+    }
+  }

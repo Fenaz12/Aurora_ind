@@ -1,0 +1,49 @@
+
+.loading-list {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-list {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 350px;
+    position: relative;
+    left: 30px;
+    top: 14px;
+}
+.marginBottom-list {
+    margin-bottom: 30px;
+}
+.list-nearby {
+    height : 75vh;
+    width: 250px;
+
+}
+.list-nearby::-webkit-scrollbar {
+    display: none;
+}
+.chip{
+    margin : 5px 5px 5px 0;
+}
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px; 
+}
+
+.spacing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.list-grid :hover{     
+    /* background-color: #F7F8F8; */
+}

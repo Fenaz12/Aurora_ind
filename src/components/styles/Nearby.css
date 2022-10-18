@@ -1,0 +1,57 @@
+.markerContainer {
+    position: 'absolute';
+    transform: 'translate(-50%, -50%)';
+    z-index: 1;
+    
+}
+
+.markerContainer:hover{
+    z-index: 2;
+}
+
+.map-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row-gap: 0px;
+    height: 80vh;
+}
+    
+.google-map { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.place-list { 
+
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.markerContainer{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    
+  }
+.markerContainer:hover{
+}
+
+.paper-info{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 140px;
+    cursor: pointer;
+    z-index:1;
+
+  }
+
+.paper-info:hover{
+    z-index: 10;
+
+}
+
+.map-marker-icon { position: relative !important; left: 10px !important; }
+
+.aria-label{
+    color:red
+}

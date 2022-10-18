@@ -1,0 +1,93 @@
+a{
+    text-decoration: none;
+    color: #555;
+}
+.content1 p{
+    color: #01003a;
+}
+.content1 h1{
+    color: #01004d;
+}
+
+#aura{
+    color: #ff6600;
+}
+.container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 45px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button1{
+    display: inline-block;
+    background: #ffffff;
+    color: #01004d;
+    padding: 8px 30px;
+    margin: 30px 5px;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button1:hover{
+    background: #01004d ;
+    color: #ff6600;
+}
+
+.content1{
+    flex-basis: 20%;
+    min-width: 500px;
+    margin-bottom: 20px;
+}
+.content1 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.container2{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 400px;
+}
+
+.offer{
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    margin-top: 80px;
+    padding: 20px 0;
+}
+.content1 .offer_image{
+    padding: 10px ;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+small{
+    color : #01004d;
+}
+
+
+
+
+/*---media query for less than 600 screen size---*/
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .content1, .content2, .cols4{
+        flex-basis:100%;
+    }
+}
+
+ 
+

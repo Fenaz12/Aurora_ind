@@ -1,0 +1,29 @@
+.header-title{
+    position: relative;
+    right: 40px;
+}
+
+.header-search{
+    position: relative;
+    margin-right:20px;
+    margin-left: 0;
+    width: '100%';
+}
+
+.header-searchIcon {
+    padding: 0,2;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    left: -0px;
+  }
+
+
+.header-toolbar{
+    display: flex; 
+    justify-content: space-between;
+}

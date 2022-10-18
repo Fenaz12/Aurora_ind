@@ -1,0 +1,146 @@
+.q-wrap{
+    height: 100vh;
+    width: calc(100vw - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-color: #d2dfff;
+    text-align: center;
+}
+
+.q-container{
+    height: 60vh;
+    width: 60vw;
+    background-color: #ffffff;
+}
+
+.q-title{
+    margin-bottom: 1rem; 
+    margin-top: 5.5rem; 
+    color: #018fd0; 
+    font-size: 2.7rem;
+    font-weight: bolder;
+    line-height: 3rem; 
+
+}
+.q-count{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4338CA;
+    margin-bottom: 1.5rem; 
+}
+
+.q-count span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4338CA;
+}
+
+.score-det{
+    line-height: 1rem;
+    color: #2f2e2e;
+    margin-top: 15px;
+}
+
+.score-section .q-btn{
+    display: inline-block;
+    width: auto; 
+    height: 38px; 
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #fff;
+    border: 2px solid #4338CA;
+    color: #4338CA;
+    cursor: pointer;
+}
+.score-section .q-btn:hover{
+    color: #ffffff;
+    background-color: #4338CA;
+}
+
+.show-results-depression{
+    margin-top: 5rem;  
+    font-size: 1.75rem;
+    line-height: 2rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    color: #3366CC;
+}
+
+.show-results-depression1{
+    margin-top: 5rem;  
+    font-size: 1.75rem;
+    line-height: 2rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    color: #A5D796;
+}
+.show-results-depression2{
+    margin-top: 5rem;  
+    font-size: 1.75rem;
+    line-height: 2rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    color: #3366CC;
+}
+.show-results-depression3{
+    margin-top: 5rem;  
+    font-size: 1.75rem;
+    line-height: 2rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    color: #E3B52A;
+}
+.show-results-depression4{
+    margin-top: 5rem;  
+    font-size: 1.75rem;
+    line-height: 2rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    color: #DA7706;
+}
+.show-results-depression5{
+    margin-top: 5rem;  
+    font-size: 1.75rem;
+    line-height: 2rem; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    color: #B90D0D;
+}
+
+.q-text{
+    color: #272727;
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25px;
+}
+.ans-sec .q-btn{
+    display: inline-block;
+    width: auto; 
+    height: 38px; 
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #fff;
+    border: 2px solid #4338CA;
+    color: #4338CA;
+    cursor: pointer;
+}
+
+.ans-sec .q-btn:hover{
+    color: #ffffff;
+    background-color: #4338CA;
+}
+

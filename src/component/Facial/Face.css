@@ -1,0 +1,111 @@
+.Face {
+    background-color: #1c1c1c;
+    text-align: center;
+    height: 100vh;
+}
+
+.face-title{
+    margin-bottom: 5px; 
+    color: #554DDE; 
+    font-size: 2.7rem;
+    font-weight: bolder;
+}
+.Face-header {
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.face-sec{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #1c1c1c;
+}
+
+#face-left{
+    flex: 30%;
+}
+#face-right{
+    flex: 70%;
+}
+
+.analys-img{
+   height: 29vh;
+   margin-top: 5px;
+}
+
+.btn-anlys{
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #554DDE;
+    color: #ffffffde;
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    vertical-align: top;
+    border: none;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.btn-anlys:hover {
+    background-color: #F44E77;
+    color: white;
+}
+
+.face-res-card-new h3{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 30px;
+    font-weight: 400;
+}
+
+
+.face-result-Col{
+    float: left;
+    width: 25%;
+    padding: 5px 5px;
+}
+.face-result-row{
+    margin: 5px;
+}
+
+.face-result-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.faceresultCard{
+    box-shadow: 0 4px 8px 0 #00000033;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    height: 180px;
+    border-radius: 20px;
+}
+.resultProgress{
+    margin: 20px;
+}
+.faceresultTitle{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.face-percent{
+    font-weight: 400;
+    margin-top: 5px;
+    color: #ffffff;
+}

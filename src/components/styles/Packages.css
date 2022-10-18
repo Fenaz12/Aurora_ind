@@ -1,0 +1,51 @@
+.packages h1{
+    text-align: center;
+    color: #555555;
+    font-weight: 900;
+    font-family: 'Roboto',sans-seri;
+}
+
+.packages h2{
+    text-align: center;
+    color: #555555;
+    font-weight: 900;
+    padding: 10px;
+    font-family: 'Roboto',sans-seri;
+}
+
+.packages p{
+    font-weight: 700;
+    font-family: 'Roboto',sans-seri;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-items: center;
+
+}
+
+.package{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 360px;
+    padding: 20px;
+}
+
+.package.a h2{
+    color: #3a1a7c;
+}
+
+.package.b h2{
+    color: #ddb44b;
+}
+
+
+.packages{
+    position: relative;
+    top:100px;
+}
+

@@ -1,0 +1,102 @@
+.status{
+    display: flex;
+    background-color: #cfffff;
+    height: 100vh;
+    text-align: center;
+}
+
+.column{
+    flex: 50%;
+    padding: 10px;
+}
+
+#left{
+    margin-top: 120px;
+    margin-left: 70px;
+    
+}
+
+#left h2{
+    font-size: 50px;
+    font-weight:900;
+}
+
+.box{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 30px 220px;
+    padding: 30px 30px 30px 30px;
+    width: 360px;
+    height: auto;
+}
+
+.resultCol{
+    float: left;
+    width: 25%;
+    padding: 10px 5px;
+}
+.resultRow{
+    margin: 20px -5px;
+}
+
+.resultRow::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.resultCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    height: 280px;
+    border-radius: 25px;
+}
+.resultProgress{
+    margin: 20px;
+}
+.resultTitle{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #fff;
+}
+.percent{
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.condition{
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+}
+  
+.card-2 {
+    background: radial-gradient(#60efbc, #58d5c9);
+}
+  
+.card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+}
+  
+.card-4 {
+    background: radial-gradient(#fbc1cc, #fa99b2);
+}
+
+@media screen and (max-width: 600px) {
+    .resultCol {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
